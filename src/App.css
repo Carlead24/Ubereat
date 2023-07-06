@@ -1,0 +1,282 @@
+*{margin:0; padding:0;}
+
+
+.NavBar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  margin-bottom: 16px;
+}
+
+.Nav-Logo{
+  color: black;
+  font-size: 30px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.Nav-btn{
+  color: black;
+  font-size: 33px;
+  padding: 20px;
+}
+
+.Nav-btn button:hover{
+  background-color: rgb(233, 227, 227);
+}
+
+.Nav-btn button{
+  border-radius: 40px;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px;
+  border: none;
+  font-size: 15px;
+
+}
+
+.Nav-btn .Nav-Btn-Sign{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+
+.Ten{
+  background-image: url(./Images/bg.png);
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 700px;
+  background-size: cover;
+}
+
+.Eleven{
+  padding: 120px 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Eleven>h5{
+  font-family: sans-serif;
+  font-size: 52px;
+  padding-right: 150px;
+  margin-bottom: 40px
+}
+
+.Eleven>form{
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Eleven>form>input{
+  width: 40%;
+  height: 60px;
+  margin: 5px;
+  border: none;
+}
+
+.Eleven>form>select{
+  height: 60px;
+  width: 20%;
+  font-weight: bold;
+  border: none;
+  margin: 5px;
+  margin-bottom: 15px
+}
+
+.Eleven>form>button{
+  height: 60px;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  font-size: 15px;
+  background-color:black;
+  color: white;
+  margin: 5px;
+}
+
+.Eleven>form>button:hover{
+  background-color: gray;
+}
+
+.Third{
+  display: flex;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 140px;
+}
+
+.Third img{
+  height: 220px;
+  width: 370px;
+  margin: 20px;
+}
+
+.Third .four>h2 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 16px;
+  margin-top: -7px;
+}
+
+.Third .four>p {
+ text-decoration: underline;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin: 16px;
+ cursor: pointer;
+ margin-top: -7px;
+}
+
+.Map-Text{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  margin-bottom: 16px;
+ 
+}
+
+.Map-Text>h4{
+  font-size: 40px;
+  margin: 22px;
+}
+
+.Map-Text>p{
+  text-decoration: underline;
+  margin: 30px;
+  padding-top: 1%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+.Map-img{
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
+
+.Map-img img{
+  margin: 31px;
+  height: 400px;
+  width: 94%;
+}
+
+.city{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+  margin: 31px;
+}
+
+.city>p{
+  margin: 2px;
+  cursor: pointer;
+}
+
+.Country-Text{
+  padding: 10px 10px;
+  margin-bottom: px;
+}
+
+.Country-Text2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Country-Text2>h4{
+  font-size: 35px;
+  margin: 22px;
+}
+
+.Country-Text2>p{
+  text-decoration: underline;
+  margin: 30px;
+  padding-top: 1%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+.Country-List{
+  display: grid;
+  grid-template-columns: repeat(4, 10fr);
+  grid-gap: 25px;
+  margin: 31px;
+  cursor: pointer;
+}
+
+.Call{
+  display: flex;
+}
+
+.six>p{
+  color: black;
+  font-size: 30px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin-bottom: 120px;
+  margin-left: 20px;
+}
+
+.six>img{
+  width: 120px;
+  height: 40px;
+  margin: 10px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.Call>.help{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px;
+  cursor: pointer;
+  padding: 0px 250px;
+}
+
+.twenty{
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.twenty>.thirty{
+  cursor: pointer;
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.thirty>p{
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.twenty>.fourty{
+  cursor: pointer;
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fourty>p{
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.Hr{
+  border-top: 1px solid rgb(205, 191, 191);
+  margin-bottom: 50px;
+}
+
+.Hr2{
+  border-top: 1px solid rgb(205, 191, 191);
+  margin-top: 50px;
+  width: 90%;
+  margin-left: 45px;
+}
